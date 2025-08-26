@@ -42,18 +42,18 @@ A modern React application setup with TypeScript, Tailwind CSS v4, and shadcn/ui
 ```
 /src
 ├── /components/
-│   ├── /ui/                    # shadcn/ui components (CLI generated)
-│   └── /custom/                # Custom components
-├── /features/                  # Feature modules
-├── /hooks/                     # Custom hooks  
-├── /lib/                       # Utils and configurations
-│   └── utils.ts               # cn() utility function
-├── /pages/                     # Page components
-├── /services/                  # API services
-├── /types/                     # TypeScript types
+│   ├── /ui/                                       # shadcn/ui components (CLI generated)
+│   └── /[section]/custom_component                # Custom components
+├── /features/                                     # Feature modules
+├── /hooks/                                        # Custom hooks  
+├── /lib/                                          # Utils and configurations
+│   └── utils.ts                                   # cn() utility function
+├── /pages/                                        # Page components
+├── /services/                                     # API services
+├── /types/                                        # TypeScript types
 ├── App.tsx
 ├── main.tsx
-└── index.css                   # Tailwind CSS v4 imports & theme
+└── index.css                                      # Tailwind CSS v4 imports & theme
 ```
 
 ## 🎨 Theme System
