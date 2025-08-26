@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 
 export default defineConfig({
-  base: "/ab8x9k2r-base-react-setup/",
+  base: "/",
   plugins: [react(), tailwindcss()],
   css: {
     postcss: {
